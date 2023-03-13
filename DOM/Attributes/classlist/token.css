@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+margin: 0;
+}
+
+.active{
+    background-color: green;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.inactive{
+    background-color: red;
+    font-size: large;
+    padding: 10px;
+}

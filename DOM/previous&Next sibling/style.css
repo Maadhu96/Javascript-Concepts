@@ -1,0 +1,13 @@
+.delete{
+    float: right;
+    background-color: red;
+    border-radius: 3px;
+    padding: 3px 12px;
+}
+table{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #efefef;
+}

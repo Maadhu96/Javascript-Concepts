@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generator function</title>
+</head>
+<body>
+  <script>
+    // generator fnction
+function* shyam(a,b){
+  
+  yield (a+b)
+  yield (a-b)
+  yield (a/b)
+  yield (a%b)
+  return a
+}
+let y=shyam(2,7)
+console.log(y.next())
+console.log(y.next())
+console.log(y.next())
+console.log(y.next())
+console.log(y.next())
+  </script>
+
+  
+</body>
+</html>
+

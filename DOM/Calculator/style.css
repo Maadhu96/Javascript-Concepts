@@ -1,0 +1,12 @@
+section{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+#clock{
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}

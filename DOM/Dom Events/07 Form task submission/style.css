@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(193, 187, 187);
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+input{
+    width:300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn{
+    padding: 10px;
+    width: 100px;
+    background-color: green;
+    border-radius: 10px;
+}
+  /* .success{
+            text-align: center;
+            display: block;
+            font-family: cursive;
+            color: rgb(83, 220, 20);
+            font-size: 50px;
+        } */

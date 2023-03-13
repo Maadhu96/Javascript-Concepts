@@ -1,0 +1,11 @@
+ What is the DOM?
+* The Dom is a application programming interface for HMTL & XML documents
+* it defines the logical structure of document and the way a document is accessed and manipulated. 
+* It represents the page so that programs can change the document structure, style, and content.
+* Using the DOM we can access the anything found in HTML & XML, and we can modify,add,& delete the content
+* The DOM represents the document as nodes and objects;
+* A web page is a document that can be displayed in browser window or in HTML page in both the case document is same. 
+But in the DOM(Document object Model) we can maniplate the web page using Javascript language.
+*  DOM structure models is structural isomorphism: if any two Document Object Model implementations are used to create 
+a representation of the same document, they will create the same structure model, with precisely the same objects and relationships.
+* 

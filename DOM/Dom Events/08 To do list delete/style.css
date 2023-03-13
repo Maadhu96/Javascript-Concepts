@@ -1,0 +1,47 @@
+*{
+     background-color:black;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+form{
+    width: 80%;
+    height: 60vh;
+}
+
+input{
+    background-color: aliceblue;
+    width:50%;
+    list-style: none;
+    position: absolute;
+   left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    padding: 7px;
+    color: black;
+    border-radius: 50px;
+}
+button{
+    padding: 8px;
+    width: 100px;
+     position: absolute;
+   left: 50%;
+    top: 17%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    border-radius: 50%;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+height: 35vh;
+}
+li{
+    color: aliceblue;
+    border-bottom: 2px solid yellow;
+    word-wrap: break-word;
+}

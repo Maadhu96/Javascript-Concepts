@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <article>
+      <section>
+        <h2>Hi There ... Please login</h2>
+        <form action="#">
+            <input
+              type="text"
+              class="form-control"
+              value=""
+              name="First Name"
+              placeholder="Enter your First Name"
+            />
+            <input
+              type="text"
+              class="form-control"
+              name="Last Name"
+              value=""
+              placeholder="Enter your Last Name"
+            />
+            <input
+              type="text"
+              name="Email"
+              class="form-control"
+              value=""
+              placeholder="Enter your Email"
+            />
+            <input
+              type="phone"
+              class="form-control"
+              name="Phone"
+              value=""
+              placeholder="Enter your Phone Number"
+            />
+            <textarea
+              name="Adress"
+              id=""
+              cols="50"
+              rows="10"
+              name="Adress"
+              class="form-control"
+              placeholder="Enter your Adress"
+            ></textarea>
+             <input
+              type="number"
+              class="form-control"
+              name="age"
+              value=""
+              placeholder="Enter your age"
+            />
+            <div class="form-radio" value="" id="gen">
+              <input
+                type="radio"
+                name="gen"
+                value="Male"
+              />Male
+              <input
+                type="radio"
+                name="gen"
+                value="Female"
+              />Female
+              <input
+                type="radio"
+                name="gen"
+                value="Other"
+              />Other
+            </div>
+            <select
+              name="city"
+              id="city"
+              aria-placeholder="Select your City"
+                class="form-control"
+              style="color: yellowgreen !important"
+            >
+              <option value="">--Select Your City--</option>
+              <option value="Mandya">Mandya</option>
+              <option value="Mysore">Mysore</option>
+              <option value="Mangalore">Mangalore</option>
+              <option value="Malavalli">Malavalli</option>
+              <option value="Banglore">Banglore</option>
+              <option value="Gadag">Gadag</option>
+            </select>
+            <button id="btn">Login</button>
+        </form>
+        <script src="./form.js"></script>
+      </section>
+    </article>
+  </body>
+</html>

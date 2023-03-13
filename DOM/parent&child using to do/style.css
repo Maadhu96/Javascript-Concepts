@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li{
+background-color:#efefef;
+margin: 5px;
+padding: 10px;
+border-bottom: 2px solid #999;
+}
+.delete{
+    float: right;
+    background-color: red;
+    padding: 4px 12px;
+    border-radius: 3px;
+    color: #FFF;
+    cursor: pointer;
+}

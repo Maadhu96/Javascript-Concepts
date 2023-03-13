@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 100%;
+    margin: 0 auto;
+}
+#input-form{
+    width: 40%;
+    height: 30vh;
+    background-color: grey;
+    text-align: center;
+}
+input{
+padding: 10px;
+border-radius: 10px;
+ box-shadow: 2px 2px rgb(212, 202, 202);
+ margin-bottom: 5px;
+}
+#submit-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(235, 243, 9);
+   
+}
+#input-form>h1{
+    text-align: center;
+    color: #eee;
+}
+
+/* ============================ */
+/* test list */
+
+#test-list{
+    width: 40%;
+    height: 65vh;
+    background-color: #eee;
+}
+#test-list li{
+    list-style: none;
+    padding:10px;
+}
+.test-list{
+    display: inline-block;
+    width:200px;
+    padding-right: 20px;
+    /* border: 2px solid ; */
+}
+.amount{
+    display: inline-block;
+    width:100px;
+    /* padding-left: 80px; */
+    margin-right: 80px;
+    /* border: 2px solid ; */
+    padding-right: 20px;
+
+}
+.add-btn{
+    padding:20px;
+    /* border: 2px solid ; */
+}
+#btn{
+    padding: 15px;
+    background-color: rgb(157, 172, 157);
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+/* =================================== */
+/* Table list */
+
+#choosed-test{
+    width: 40%;
+    height: 60vh;
+    background-color: aqua;
+}
+
+/* ============================ */
+/* Choosed list */
+#choosed-test{
+    position: absolute;
+    left:40%;
+    top: 0;
+}

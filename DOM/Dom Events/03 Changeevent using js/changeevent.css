@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(52, 50, 50);
+}
+
+
+
+section{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    /* background-color: gray; */
+}
+input{
+    background-color: #fff;
+}
+
+button{
+    background-color: #fff;
+
+}
+span{
+    color: #fff;
+}

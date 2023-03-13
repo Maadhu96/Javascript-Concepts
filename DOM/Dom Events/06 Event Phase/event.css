@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+#events{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+
+}
+.grandparent{
+    border: 2px solid red;
+    padding: 20px;
+}
+.parent{
+    border: 2px solid rgb(89, 0, 255);
+    padding: 20px;
+}
+.child{
+    border: 2px solid rgb(0, 255, 17);
+    padding: 20px;
+
+}
