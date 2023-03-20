@@ -60,19 +60,18 @@ AjaxRequest.onload=function(){
   }
   let tbody=document.getElementById("tbody")
   tbody.innerHTML=output
-  
 }
 AjaxRequest.send()
 
 // =============================================
 // es6 feature using promises
-window.fetch("https://fakestoreapi.com/products").then(data => {//readable stream
-    //convert stream into JSON
-    data.json().then(product => { document.getElementById("fetchdata").innerHTML=product.map((val,ind)=>val.id
-    )})
-}).catch(error=>{console.log(error)}).finally(_ => {
-    console.log(("finally data"))
-})
+// window.fetch("https://fakestoreapi.com/products").then(data => {//readable stream
+//     //convert stream into JSON
+//     data.json().then(product => { document.getElementById("fetchdata").innerHTML=product.map((val,ind)=>val.id
+//     )})
+// }).catch(error=>{console.log(error)}).finally(_ => {
+//     console.log(("finally data"))
+// })
 
 
 
